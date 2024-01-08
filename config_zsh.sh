@@ -1,4 +1,7 @@
 #! /bin/bash
+# Create by: Daniel Leandro
+# Release: 0.0.1
+# Feel free to Use! :)
 
 # Install ZSH
 sudo apt install zsh -y
