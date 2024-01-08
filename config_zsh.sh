@@ -1,7 +1,12 @@
 #! /bin/bash
-# Created by: Daniel Leandro
-# Release: 0.0.1
-# Feel free to Use! :)
+### Created by: Daniel Leandro                        ###
+### Release: 0.0.1                                    ###
+### Requirements: Ubuntu / Windows Terminal if in WSL ###
+### Feel free to Use! :)                              ###
+
+# Install Pre Requirements
+sudo apt install unzip -y
+sudo apt install fontconfig -y
 
 # Install ZSH
 sudo apt install zsh -y
@@ -31,7 +36,7 @@ curl -sS https://raw.githubusercontent.com/danielalvesleandro/zsh_config/master/
 # Install Starship
 curl -sS https://starship.rs/install.sh | sh
 
-# Create Starship config file from template
+# Create Starship config file from template; Modifications to the Starship config must be done in this file
 mkdir ~/.config/
 wget https://raw.githubusercontent.com/danielalvesleandro/zsh_config/master/starship.toml -P ~/.config/
 
