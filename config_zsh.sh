@@ -23,17 +23,17 @@ echo 'source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-sub
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
 
 # Install Nerd Fonts
-curl -sS https://raw.githubusercontent.com/danielalvesleandro/wsl_config/master/nerdfonts.sh | sh
+curl -sS https://raw.githubusercontent.com/danielalvesleandro/zsh_config/master/nerdfonts.sh | sh
 
 # Install Starship
 curl -sS https://starship.rs/install.sh | sh
 
 # Create Starship config file from template
 mkdir ~/.config/
-wget https://raw.githubusercontent.com/danielalvesleandro/wsl_config/master/starship.toml -P ~/.config/
+wget https://raw.githubusercontent.com/danielalvesleandro/zsh_config/master/starship.toml -P ~/.config/
 
 # Replace the .zshrc file content with template
-wget https://raw.githubusercontent.com/danielalvesleandro/wsl_config/master/.zshrc -P ~/
+wget https://raw.githubusercontent.com/danielalvesleandro/zsh_config/master/.zshrc -P ~/
 
 # Source .zshrc file
 source ~/.zshrc
