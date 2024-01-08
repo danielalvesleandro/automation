@@ -1,5 +1,5 @@
 #! /bin/bash
-# Create by: Daniel Leandro
+# Created by: Daniel Leandro
 # Release: 0.0.1
 # Feel free to Use! :)
 
