@@ -27,5 +27,5 @@ The script will:
 ## Get started :rocket:
   1) Clone the repo locally
   2) cd zsh_config
-  3) chmod +x zsh_config.sh
+  3) chmod +x zsh_config.sh nerdfonts.sh
   4) ./zsh_config.sh
